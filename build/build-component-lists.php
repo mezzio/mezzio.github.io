@@ -122,10 +122,17 @@ function injectProjectContent(string $content, string $file) : void
 {
     $homepage = file_get_contents($file);
     $replacement = preg_replace(
-        '#(?<start>\<\!-- START COMPONENT LISTS --\>).*?(?<end>\<\!-- END COMPONENT LISTS --\>)#s',
-        '$1' . $content . '$2',
+        [
+            '#(?<start>\<\!-- START COMPONENT LISTS --\>).*?(?<end>\<\!-- END COMPONENT LISTS --\>)#s',
+            '#(?<start>\<\!-- START YEAR --\>).*?(?<end>\<\!-- END YEAR --\>)#s',
+        ],
+        [
+            '$1' . $content . '$2',
+            '${1}' . date('Y') . '${2}',
+        ],
         $homepage
     );
+
     file_put_contents($file, $replacement);
 }
 
