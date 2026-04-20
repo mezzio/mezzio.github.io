@@ -7,6 +7,13 @@
     "description": "PSR-7 middleware in minutes."
   },
   {
+    "name": "Mezzio and Valinor Integration Layer",
+    "package": "mezzio/mezzio-valinor",
+    "url": "https://docs.mezzio.dev/mezzio-valinor/",
+    "group": "",
+    "description": "Convert PSR-7 requests to well-typed data structures."
+  },
+  {
     "name": "CSRF",
     "package": "mezzio/mezzio-csrf",
     "url": "https://docs.mezzio.dev/mezzio-csrf/",
