@@ -35,14 +35,14 @@
     "description": "HTTP Basic Authentication adapter for mezzio-authentication."
   },
   {
-    "name": "Username/password authentication for mezzio-authentication",
+    "name": "Username/password Authentication for Mezzio and PSR-7",
     "package": "mezzio/mezzio-authentication-session",
     "url": "https://docs.mezzio.dev/mezzio-authentication-session/",
     "group": "Authentication",
     "description": "Username/password, session-backed authentication adapter for mezzio-authentication."
   },
   {
-    "name": "laminas-authentication integration for Mezzio",
+    "name": "laminas-authentication Integration for Mezzio and PSR-7",
     "package": "mezzio/mezzio-authentication-laminasauthentication",
     "url": "https://docs.mezzio.dev/mezzio-authentication-laminasauthentication/",
     "group": "Authentication",
@@ -56,21 +56,21 @@
     "description": "Authorization middleware for Mezzio and PSR-7 applications."
   },
   {
-    "name": "laminas-permissions-acl integration for Mezzio",
+    "name": "laminas-permissions-acl Integration for Mezzio and PSR-7",
     "package": "mezzio/mezzio-authorization-acl",
     "url": "https://docs.mezzio.dev/mezzio-authorization-acl/",
     "group": "Authorization",
     "description": "ACL permission adapter for mezzio-authorization."
   },
   {
-    "name": "laminas-permissions-rbac integration for Mezzio",
+    "name": "laminas-permissions-rbac Integration for Mezzio and PSR-7",
     "package": "mezzio/mezzio-authorization-rbac",
     "url": "https://docs.mezzio.dev/mezzio-authorization-rbac/",
     "group": "Authorization",
     "description": "RBAC permission adapter for mezzio-authorization."
   },
   {
-    "name": "Swoole support for Mezzio",
+    "name": "Swoole Support for Mezzio",
     "package": "mezzio/mezzio-swoole",
     "url": "https://docs.mezzio.dev/mezzio-swoole/",
     "group": "",
@@ -84,7 +84,7 @@
     "description": "Flash messages for PSR-7 and Mezzio applications."
   },
   {
-    "name": "HAL for PSR-7",
+    "name": "HAL for Mezzio and PSR-7",
     "package": "mezzio/mezzio-hal",
     "url": "https://docs.mezzio.dev/mezzio-hal/",
     "group": "API",
@@ -124,5 +124,12 @@
     "url": "https://docs.mezzio.dev/mezzio-cors/",
     "group": "Authorization",
     "description": "CORS Middleware to provide project- or route-specific CORS configurations."
+  },
+  {
+    "name": "OAuth2 Authentication Middleware for Mezzio and PSR-7",
+    "package": "mezzio/mezzio-authentication-oauth2",
+    "url": "https://docs.mezzio.dev/mezzio-authentication-oauth2/",
+    "group": "Authentication",
+    "description": "OAuth2 (server) authentication middleware for Mezzio and PSR-7 applications."
   }
 ]
